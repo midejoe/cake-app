@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Cake Order Form</title>
+</head>
+<body>
+  <h1>Cake Order Form</h1>
+  <form id="order-form">
+    <label for="customer-name">Your Name:</label>
+    <input type="text" id="customer-name" name="customerName" required><br><br>
+  
+    <label for="cake-flavor">Cake Flavor:</label>
+    <select id="cake-flavor" name="cakeFlavor" required>
+      <option value="chocolate">Chocolate</option>
+      <option value="vanilla">Vanilla</option>
+      <option value="redvelvet">Red Velvet</option>
+      <option value="strawberry">Strawberry</option>
+    </select><br><br>
+  
+    <label for="cake-size">Cake Size:</label>
+    <select id="cake-size" name="cakeSize" required>
+      <option value="small">Small</option>
+      <option value="medium">Medium</option>
+      <option value="large">Large</option>
+    </select><br><br>
+  
+    <input type="submit" value="Place Order">
+  </form>
+
+  <script src="script.js"></script>
+</body>
+</html>
