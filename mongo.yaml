@@ -1,7 +1,7 @@
 version: '3'
 services:
   cake-app:
-    image: midejoe/cake-app:latest
+    image: midejoe/cake-app:v5
     ports:
       - 3000:3000
 
